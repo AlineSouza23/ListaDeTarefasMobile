@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">To Do List App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="descrição">Descrição</string>
+    <string name="titulo">Título</string>
+    <string name="data">Data para realização</string>
+    <string name="salvar">Salvar</string>
+    <string name="stringSelecionaData">Seleciona Data</string>
+    <string name="dia">selecione o dia certo</string>
+    <string name="titulomsg">Aline</string>
+    <string name="datamsg">03/05/2022</string>
+    <string name="datafinalizadamsg">finalizada</string>
+</resources>

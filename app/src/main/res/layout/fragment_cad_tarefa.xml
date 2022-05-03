@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.CadTarefaFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/estilo_base"
+            android:text="@string/titulo"
+            />
+
+        <EditText
+
+            android:id="@+id/titulo"
+            style="@style/edit_text"
+
+            />
+
+        <TextView
+            style="@style/estilo_base"
+            android:text="@string/descrição"
+            />
+
+        <EditText
+
+            android:inputType="textCapSentences|textMultiLine"
+            android:lines="4"
+            android:id="@+id/descricao"
+            style="@style/edit_text"
+            android:gravity="top"
+
+            />
+
+        <Button
+            android:id="@+id/iddata"
+            android:layout_width="215dp"
+            android:layout_height="50dp"
+            android:text="@string/stringSelecionaData"
+            android:onClick="onclickSelecionaData"/>
+
+        <Button
+            android:id="@+id/idbotao"
+            android:layout_width="215dp"
+            android:layout_height="50dp"
+            android:text="@string/salvar"
+            android:onClick="onclickSelecionaData"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="30dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="25dp"
+        android:orientation="vertical"
+        android:background="@color/azulClaro"
+        >
+
+
+        <ImageView
+            android:id="@+id/idimagem"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/azulClaro"
+            android:src="@android:drawable/ic_menu_camera"
+
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/titulomsg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/titulomsg"
+            android:background="@drawable/shape"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            />
+
+        <TextView
+            android:id="@+id/datamsg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/datamsg"
+
+            />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/datafinalizadamsg"
+            android:backgroundTint="@color/finalizada"
+            android:textAlignment="center"
+            android:background="@drawable/shape"
+
+            />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
